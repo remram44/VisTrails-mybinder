@@ -1,8 +1,6 @@
 from vistrails.core.requirements import require_python_module
 
-identifier = 'org.vistrails.vistrails.sklearn'
-name = 'sklearn'
-version = '0.15.2'
+from .identifiers import *
 
 
 def package_requirements():
