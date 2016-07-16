@@ -25,6 +25,8 @@ RUN \
 RUN \
   apt-get install -y python-zmq
 
+RUN echo $PATH
+
 # Makes virtualenv
 RUN \
   cd /root && \
